@@ -1,4 +1,5 @@
-# AngularRouting - Simple Nested Routing
+# AngularRouting - Lazy Loading Simple Nested Routing
+![alt text](https://github.com/wojciek/AngularRouting/blob/master/img/webView.jpg)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
 
