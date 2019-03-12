@@ -1,1 +1,102 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+  }
+
+
+h1 {
+    padding: 0.1em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    border-left: 1.2em solid black;
+    border-right: 1.2em solid black;
+    border-radius: 2em;
+    text-align: center;
+  }
+  h2, h3 {
+    color: rgb(17, 17, 17);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+  body {
+    margin: 2em;
+  }
+  body, input[text], button {
+    color: black;
+    font-family: Centaury Ghotic;
+  }
+  a {
+    cursor: pointer;
+    cursor: hand;
+  }
+  button {
+    font-family: Centaury Ghotic;
+    background-color: #555555;;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  
+  }
+  button:hover {
+    background-color: #000000;
+  }
+  button:disabled {
+    background-color: #eee;
+    color: rgb(255, 255, 255);
+    cursor: auto;
+  }
+  
+  nav {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-left: 6px solid gray;
+    background-color: #dddddd;
+  }
+  /* Navigation Styles */
+  nav a {
+  display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    border-right: 1px solid gray;
+  }
+  nav a:hover:not(.active) {
+    background-color: gray;
+  }
+  .active {
+    background-color: gray;
+  }
+  
+  /* Other Styles */
+  * {
+    font-family: Centaury Ghotic;
+  }
+  
+  .child{
+    margin: 1em 0 1em 0;
+    padding: 1em 1em 1em 1em;
+    border-bottom: 6px solid gray;
+    border-top: 6px solid gray;
+    background-color: lightgrey;
+  }
+  .childElement{
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    background-color:#ff8686;
+    color: #c20707;
+    font-style: oblique
+  }
+
+  .column{
+      float: left;
+      width: 50%;
+      display: table;
+  }
+  main{
+      margin: 0 10% 0 10%
+  }
